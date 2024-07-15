@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-style: normal;
+    font-family: "Josefin Slab", serif;
+    font-size: 20px;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-slab-<uniquifier> {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-no-<uniquifier> {
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.menu-toggle {
+  display: none;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+
+.menu {
+  display: flex;
+  width: 80%;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+.a {
+  color: white;
+  margin: 50px;
+  margin-top: 80px;
+}
+a:hover {
+  color: purple;
+}
+    .titre1
+{
+    font-size: 60px;
+    margin-top: 300px;
+}
+.titre3 {
+        color: white;
+	font-size: 30px;
+    margin: 10px;
+    margin-top: 15px;
+    }
+.titre2
+{
+    margin-top: 150px;
+    color: white;
+    font-size: 20px;
+        text-align: center;
+          font-family: "Playwrite NO", cursive;
+}
+.titre1
+{
+    text-align: center;
+            color: white;
+	font-size: 40px;
+    margin: 10px;
+    margin-top: 15px;
+      font-family: "Josefin Slab", serif;
+  font-style: normal;
+}
+.video
+{
+    width: 50%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 30px;
+
+}
+.logo {
+  width: 10%;
+  height: 100px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+    position: fixed; 
+    background-color: black;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    border: line;
+    border-color: white;
+}
+.colonne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rubriquefooter
+{
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+.rubriquefooter:hover
+{
+    color: purple;
+}
+.footer
+{
+	margin-top: 100px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	color: white;
+	font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding-top: 60px;
+  margin-left: 20px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+.menu {
+  display: none;
+    }
+
+.menu.active {
+  display: block;
+}
+
+.a {
+
+  margin: 20px;
+  margin-top: 20px;
+}
+.titre1
+{
+    font-size: 40px;
+    margin-top: 100px;
+}
+.titre3 {
+    font-size: 20px;
+}
+.titre2 {
+        font-size: 13px;
+            margin-top: 150px;
+    }
+.logo {
+  color: white;
+  width: 30%;
+  height: 100px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+   }
+.colonne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video
+{
+    width: 80%;
+}
+.rubriquefooter
+{
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+.rubriquefooter:hover
+{
+    color: purple;
+}
+.footer
+{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	color: white;
+	font-size: 16px;
+}
+  }
+  
